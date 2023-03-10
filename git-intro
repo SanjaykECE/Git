@@ -1,0 +1,40 @@
+Git :learned some concepts
+
+ 1 -->  The perfect Commit
+        1. Subject --> concise summary of what happend.
+        2. Body --> more detailed explanation.
+ 2nd --> Branching Stratigies ---> a wriiten convention. 
+        1. it allows to create branches -it doesnt tell you how to use it.
+        2. to avoid mistakes & collisions.
+     inside this it has LONG -running & SHORT lived branches 
+        1.exist through the complete lifetime of the project.
+        2.often,they mirror stages in your dev life cycle.
+        
+     two examples of Branching stratigies.
+     
+     1. github flow
+     2. gitflow.
+     
+ githubflow : very simple,lean only long running branch+feature branches.
+ gitflow    : more structure,more rules,long running,short lived features.
+ 
+ 
+ 3rd --> pull requests: --> contributing code to other repositories.
+ 4th ---> merge confilcts --> integrating commits from differnet source .
+              if we conflict use the command $ git merge --abort ,$ git rebase --abort.
+ to solve conflict --> just clean the files.
+ 
+ 5th-->  merge vs rebase:
+            The Merge commit--> connect two branches.
+            rebase --> step by step
+            
+   NOTE : *** We should not use rebase commits that we have already pushed/shared on a remote repository!.
+              instead use it for cleaning up your local history before merging it into a shared team branch.
+ 
+Git:
+   Free and open source version control system
+Terms:
+  Repository -> Project, or the folder/place where your project is kept.
+  GitHub -> A wedsite to host your repositories online.
+  Directory -> Folder.
+  cd -> Change Directory.
